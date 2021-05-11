@@ -1,0 +1,113 @@
+<!--
+  Assignment: Digital Portfolio
+  Author: Nicholas Rivera
+  Date: 2-28-2021
+  Purpose: Displays my past and future projects that I worked on. 
+  Template Used: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </head>
+
+  <body id="pageProjects">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red w3-card w3-left-align w3-large" style="background-color:#1D1B93 !important;">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large w3-white">Past/Future Projects</a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-padding-large">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Past/Future Projects</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px;background-color:#1D1B93 !important;">
+      <h1 class="w3-margin w3-jumbo">Past/Future Projects</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-twothird">
+          <h1>TEDxYouth@St.GeorgesTech</h1>
+          <h5 class="w3-padding-32">During my junior year of highschool we were tasked with making a website for a TEDxYouth presentation that would inform people as to where the event would take place, who will be participating and speaking, and what the event was.</h5>
+
+          <p class="w3-text-grey">Utilizing HTML, CSS, and Bootstrap we were able to make this website. In this website your able to get an overview as to what TEDxYouth is and who would be speaking at the event. There is also a sign up page in case the user wants to be a speaker at the event.</p>
+          <a href="https://tedx-project.nicholasrivera.repl.co/">Click here to be taken to the website!</a>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img class="fa w3-padding-64 w3-text-red" src="images/tedxyouth.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-third w3-center">
+          <img class="fa w3-padding-64 w3-text-red w3-margin-right" src="images/luckie's journey.png">
+ 
+        </div>
+
+        <div class="w3-twothird">
+          <h1>Senior Project</h1>
+          <h5 class="w3-padding-32">My Senior Project was a game called Luckie's Journey. It was built with the Godot Engine.</h5>
+
+          <p class="w3-text-grey">In the game you play as Luckie the lumberjack and your goal to kill all 20 loggers. However, your being chased by a demon, named U.Le. If U.Le touches one of the loggers, then it's game over, but if Luckie defeats them all he wins! The controls for the game are WASD to move and press and hold Space to swing Luckie's hatchet.</p>
+          <a href="https://github.com/HoliestGamer/Luckie-s-Journey">Click here to be taken to the Github Repository for the game's files!</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-twothird">
+          <h1>Higher or Lower Card Game</h1>
+          <h5 class="w3-padding-32">In my sophmore year of highschool, we were tasked with making two card games with our knowledge of Java.</h5>
+
+          <p class="w3-text-grey">Utilizing Java the game takes a classic card game and turns it into an application. In this game, the name of a card will display and you have to guess if the next card will have a higher or lower value. If you get it correct, then you will get a point. Once you get one wrong, you can either bank all the points you earned or risk them all to double the current amount you have. The game is over once you have banked 15 points.</p>
+          <a href="https://replit.com/join/gmfpezhn-nicholasrivera">Click here to be taken to the application!</a>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img class="fa w3-padding-64 w3-text-red" src="images/cards.jfif">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge">Contact Me At: nicholas.lallind@gmail.com</h1>
+    </div>
+
+      <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+      <p>Template by w3.css</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!--
+  Assignment: Digital Portfolio
+  Author: Nicholas Rivera
+  Date: 2-28-2021
+  Purpose: Tells the user about who I am and what I am about.
+  Template Used: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </head>
+
+  <body id="pageHome">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red w3-card w3-left-align w3-large" style="background-color:#931B1B !important">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Past/Future Projects</a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-padding-large">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Past/Future Projects</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px;background-color:#931B1B !important;">
+      <h1 class="w3-margin w3-jumbo">Nicholas Lallind Rivera</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-twothird">
+          <h1><strong>Hello!</strong></h1>
+          <h5 class="w3-padding-32">My name is Nicholas Lallind Rivera and welcome to my digital protfolio.</h5>
+
+          <p class="w3-text-grey">I am currently a high school student on my way to graduate as well as an aspiring video game developer. I have a high knowledge of many coding languages as well as a small amount of hardware. I've also volunteered at Forget Me Not Families, a charity group that distributes clothes and food to the poor and homeless. I'm a very approachable person. If you need some help with something, I'll help with the abilities and skills that I have.</p>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img class="fa w3-padding-64 w3-text-red" src="images/senior photo.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge">Contact Me At: nicholas.lallind@gmail.com</h1>
+    </div>
+
+      <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+      <p>Template by w3.css</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </body>
+</html>

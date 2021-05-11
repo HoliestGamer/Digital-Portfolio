@@ -1,0 +1,106 @@
+<!--
+  Assignment: Digital Portfolio
+  Author: Nicholas Rivera
+  Date: 2-28-2021
+  Purpose: Displays the schools that I went to and what I accomplished during my time in each school.
+  Template Used: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </head>
+
+  <body id="pageEducation">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red w3-card w3-left-align w3-large" style="background-color:#065B28 !important">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-padding-large w3-white">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Past/Future Projects</a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+        <a href="education.html" class="w3-bar-item w3-button w3-padding-large">Prior Education</a>
+        <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Past/Future Projects</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px;background-color:#065B28 !important;">
+      <h1 class="w3-margin w3-jumbo">Prior Education</h1>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-twothird">
+          <h1>St. Georges Technical High School</h1>
+          <h5 class="w3-padding-32">New Castle County Vo-Tech District</h5>
+
+          <p class="w3-text-grey">St. Georges is one of the four high schools within the New Castle County district and is also the high school in which I will graduate from. The school provides many different options for students when it comes to their career path and the one that I chose was IT. This choice was made so that I may get a better understanding and increase my knowledge of software development as well as some hardware.For more information about the school <a href="https://stgeorges.nccvt.k12.de.us/">click here</a> to be taken to their offical website!</p>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img class="fa fa-anchor w3-padding-64 w3-text-red" src="images/st georges.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+        <div class="w3-third w3-center">
+          <img class="fa w3-padding-64 w3-text-red w3-margin-right" src="images/trophy.jpg">
+        </div>
+
+        <div class="w3-twothird">
+          <h1>Academy Awards</h1>
+          <h5 class="w3-padding-32">Some awards that I achieved throughtout my time in school include:</h5>
+          <ul class="w3-text-black">
+            <li>High School Awards</li>
+            <ul class="w3-text-grey">
+              <li>Destingished Honor Roll</li>
+              <li>Positive Referal</li>
+              <li>Certificate of Recognition for Demonstrating Positive Behavior</li>
+            </ul>
+            <li>Middle School Awards</li>
+            <ul class="w3-text-grey">
+              <li>Honor Roll</li>
+              <li>Respectful Student Award</li>
+              <li>President’s Education Award for Outstanding Academic Achievement </li>
+              <li>Excellence in Math</li>
+              <li>Perseverance Award</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge">Contact Me At: nicholas.lallind@gmail.com</h1>
+    </div>
+
+      <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+      <p>Template by w3.css</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </body>
+</html>

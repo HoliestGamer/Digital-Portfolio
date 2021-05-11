@@ -1,0 +1,22 @@
+/*
+  Assignment: Digital Portfolio
+  Author: Nicholas Rivera
+  Date: 3-3-2021
+  Purpose: Applies custom styles to the font and changes it's size.
+  Template Used: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h
+*/
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+}
+.w3-bar,h1,button {
+  font-family: "Montserrat", sans-serif;
+  
+}
+.fa-anchor,.fa-coffee {
+  font-size:200px;
+}
+img {
+  width: 80%;
+  height: 450px;
+}
